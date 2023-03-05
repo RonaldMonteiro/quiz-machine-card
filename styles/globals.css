@@ -1,9 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Raleway-ExtraBold;
+  src: url(../public/fonts/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: Raleway-Medium;
+  src: url(../public/fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+  font-family: Raleway-Bold;
+  src: url(../public/fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: url(../public/fonts/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: NunitoSans-Regular;
+  src: url(../public/fonts/Nunito_Sans/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: NunitoSans-Black;
+  src: url(../public/fonts/Nunito_Sans/NunitoSans-Black.ttf);
+}
+
+@font-face {
+  font-family: NunitoSans-SemiBold;
+  src: url(../public/fonts/Nunito_Sans/NunitoSans-SemiBold.ttf);
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -71,6 +110,12 @@
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
   }
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@font-face {
+  font-family: 'Opens Sans';
+  src: url('https://fonts.googleapis.com/css?family=Open+Sans') format('truetype');
 }
 
 * {

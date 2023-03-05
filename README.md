@@ -1,9 +1,9 @@
+---
+
 <div align="center">
  <img src="./public/animate.gif" width="300"  />
  <img src="./public/textgit.png" width="300"  />
 </div>
-
----
 
 ## Descriçao
 

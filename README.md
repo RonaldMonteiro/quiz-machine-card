@@ -1,38 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+ <img src="./public/animate.gif" width="300"  />
+ <img src="./public/textgit.png" width="300"  />
+</div>
 
-## Getting Started
+---
 
-First, run the development server:
+## Descriçao
 
-```bash
+O **Quiz Maquininha Ideal** é uma aplicação web que possibilita aos usuários descobrirem a maquininha de cartão de crédito mais adequada às suas necessidades. Através de um quiz interativo, os usuários são guiados para avaliar quais são as melhores opções para eles. Ao final do quiz, os usuários recebem uma análise detalhada das opções de maquininha de cartão crédito recomendadas, de acordo com seus critérios de avaliação. O resultado é composto por um Top 3 das melhores maquininhas.
+
+##### STACKS UTILIZADAS
+
+O projeto foi criado na estrutura **Next.JS** com **TailwindCSS** e usa funções **Serverless**.
+
+![](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) [![](https://camo.githubusercontent.com/268ac512e333b69600eb9773a8f80b7a251f4d6149642a50a551d4798183d621/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163742d3230323332413f7374796c653d666f722d7468652d6261646765266c6f676f3d7265616374266c6f676f436f6c6f723d363144414642)](https://camo.githubusercontent.com/268ac512e333b69600eb9773a8f80b7a251f4d6149642a50a551d4798183d621/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f52656163742d3230323332413f7374796c653d666f722d7468652d6261646765266c6f676f3d7265616374266c6f676f436f6c6f723d363144414642) [![](https://camo.githubusercontent.com/93c855ae825c1757f3426f05a05f4949d3b786c5b22d0edb53143a9e8f8499f6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d3332333333303f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d463744463145)](https://camo.githubusercontent.com/93c855ae825c1757f3426f05a05f4949d3b786c5b22d0edb53143a9e8f8499f6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176615363726970742d3332333333303f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d463744463145) [![](https://camo.githubusercontent.com/d63d473e728e20a286d22bb2226a7bf45a2b9ac6c72c59c0e61e9730bfe4168c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c352d4533344632363f7374796c653d666f722d7468652d6261646765266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465)](https://camo.githubusercontent.com/d63d473e728e20a286d22bb2226a7bf45a2b9ac6c72c59c0e61e9730bfe4168c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c352d4533344632363f7374796c653d666f722d7468652d6261646765266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465) [![](https://camo.githubusercontent.com/3a0f693cfa032ea4404e8e02d485599bd0d192282b921026e89d271aaa3d7565/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f435353332d3135373242363f7374796c653d666f722d7468652d6261646765266c6f676f3d63737333266c6f676f436f6c6f723d7768697465)](https://camo.githubusercontent.com/3a0f693cfa032ea4404e8e02d485599bd0d192282b921026e89d271aaa3d7565/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f435353332d3135373242363f7374796c653d666f722d7468652d6261646765266c6f676f3d63737333266c6f676f436f6c6f723d7768697465) [![](https://camo.githubusercontent.com/e9b080a6541e5355827ea91b6a0302cbbc54af4705b0c6b0f1561a0957ced2fb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5461696c77696e645f4353532d3338423241433f7374796c653d666f722d7468652d6261646765266c6f676f3d7461696c77696e642d637373266c6f676f436f6c6f723d7768697465)](https://camo.githubusercontent.com/e9b080a6541e5355827ea91b6a0302cbbc54af4705b0c6b0f1561a0957ced2fb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5461696c77696e645f4353532d3338423241433f7374796c653d666f722d7468652d6261646765266c6f676f3d7461696c77696e642d637373266c6f676f436f6c6f723d7768697465) [![](https://camo.githubusercontent.com/c5135c484e53a6aaad4e096fdf0c7ffde40fb6cc1530ea4cd16878de5b5adae0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6174657269616c25323055692d3030374646463f7374796c653d666f722d7468652d6261646765266c6f676f3d6d7569266c6f676f436f6c6f723d7768697465)](https://camo.githubusercontent.com/c5135c484e53a6aaad4e096fdf0c7ffde40fb6cc1530ea4cd16878de5b5adae0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6174657269616c25323055692d3030374646463f7374796c653d666f722d7468652d6261646765266c6f676f3d6d7569266c6f676f436f6c6f723d7768697465) [![](https://camo.githubusercontent.com/2fae549118710fd8284be62292b9e9a6cdd561cb50d46f35938b08dc3fc2c4e7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f56657263656c2d3030303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d76657263656c266c6f676f436f6c6f723d7768697465)](https://camo.githubusercontent.com/2fae549118710fd8284be62292b9e9a6cdd561cb50d46f35938b08dc3fc2c4e7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f56657263656c2d3030303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d76657263656c266c6f676f436f6c6f723d7768697465)
+
+## Iniciando o Servidor
+
+Primeiro, gerir o servidor de desenvolvimento:
+
+```plaintext
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra `http://localhost:3000` com o seu navegador para ver o resultado.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Ou visualize uma **demonstraçao:**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+**LINK DEMO** 🔜 [Quiz Maquininha Ideal](http://quiz-machine-credit.vercel.app)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
